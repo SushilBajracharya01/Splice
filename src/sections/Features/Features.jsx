@@ -5,26 +5,6 @@ import { Unlock } from '../../assets/Unlock.jsx';
 import { VolumeUp } from '../../assets/VolumeUp.jsx';
 import H2 from '../../elements/H2';
 
-const FEATURES_LIST = [
-    {
-        icon: <VolumeUp />,
-        title: "100 royalty free",
-        description: "Use sounds for anything. They’re cleared for commercial use."
-    }, {
-        icon: <Unlock />,
-        title: "No commitments",
-        description: "Cancel your subscription at any time, no questions asked."
-    }, {
-        icon: <Download />,
-        title: "Yours forever",
-        description: "Keep everything you download. Even if you cancel."
-    }, {
-        icon: <Play />,
-        title: "Individual samples",
-        description: "Preview & download individual samples, not just full packs."
-    },
-]
-
 export default function Features() {
     return (
         <div className="features bg-[#0C0C0C] relative mb-36 bg-feature-patterns bg-no-repeat bg-cover bg-center min-h-screen">
@@ -64,3 +44,23 @@ export default function Features() {
         </div>
     )
 }
+
+const FEATURES_LIST = [
+    {
+        icon: <VolumeUp />,
+        title: "100 royalty free",
+        description: "Use sounds for anything. They’re cleared for commercial use."
+    }, {
+        icon: <Unlock />,
+        title: "No commitments",
+        description: "Cancel your subscription at any time, no questions asked."
+    }, {
+        icon: <Download />,
+        title: "Yours forever",
+        description: "Keep everything you download. Even if you cancel."
+    }, {
+        icon: <Play />,
+        title: "Individual samples",
+        description: "Preview & download individual samples, not just full packs."
+    },
+]
