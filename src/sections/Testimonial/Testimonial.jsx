@@ -7,6 +7,7 @@ import AndrewImg from '../../assets/Andrew Huang.png'
 import KSHMRImg from '../../assets/KSHMR.png'
 import KeshaImg from '../../assets/Kesha Lee.png'
 import Glass from "../../elements/Glass";
+import CTA from "../../elements/CTA";
 
 export default function Testimonial() {
     return (
@@ -17,9 +18,7 @@ export default function Testimonial() {
 
                     <p className='mt-3 mb-5 text-lg text-[#958A8A] break-words'>Meet some of our amazing creators and hear firsthand about their Splice journey! Check out these short testimonials to get a glimpse into the unique experiences that make Splice a special place for artists.</p>
 
-                    <button className='uppercase rounded-full px-12 py-3 text- bg-blue-600 hover:bg-white hover:text-blue-700 transition-colors font-medium'>
-                        Try it now
-                    </button>
+                    <CTA label='try it now' />
                 </Glass>
 
                 <div className="flex z-10 flex-wrap gap-10 max-w-[715px] justify-center xl:justify-start">

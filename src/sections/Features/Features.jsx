@@ -3,6 +3,7 @@ import OvalEnd from '../../assets/OvalEnd.svg';
 import { Play } from '../../assets/Play.jsx';
 import { Unlock } from '../../assets/Unlock.jsx';
 import { VolumeUp } from '../../assets/VolumeUp.jsx';
+import CTA from '../../elements/CTA.jsx';
 import H2 from '../../elements/H2';
 
 export default function Features() {
@@ -31,9 +32,7 @@ export default function Features() {
                         </H2>
 
                         <div className='text-center mt-8'>
-                            <button className='uppercase border-2 rounded-full px-12 py-3 text-white hover:bg-white hover:text-blue-700 transition-colors'>
-                                Jobs at splice
-                            </button>
+                            <CTA label="Jobs at splice" />
                         </div>
                     </div>
 
