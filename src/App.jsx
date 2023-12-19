@@ -1,3 +1,4 @@
+import FeaturedIn from "./sections/FeaturedIn"
 import Features from "./sections/Features"
 import Footer from "./sections/Footer"
 import Plugins from "./sections/Plugins"
@@ -9,6 +10,7 @@ function App() {
 
   return (
     <div className='app font-mont'>
+      <FeaturedIn />
       <Sounds />
       <Plugins />
       <Studio />

@@ -5,7 +5,7 @@ import PluginImg from '../../assets/plugins.png';
 
 export default function Plugins() {
     return (
-        <div className="px-8 py-24">
+        <div className="px-8 py-24 bg-gradient-to-b from-[#F4F6F9] via-[#FAF6F9] to-white">
             <div className="mx-auto flex justify-between items-center max-w-[1280px] flex-col-reverse gap-12 md:flex-row">
                 <div>
                     <img src={PluginImg} alt="plugins" />
