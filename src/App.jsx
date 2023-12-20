@@ -1,3 +1,4 @@
+import Header from "./components/Header"
 import FeaturedIn from "./sections/FeaturedIn"
 import Features from "./sections/Features"
 import Footer from "./sections/Footer"
@@ -11,6 +12,7 @@ function App() {
 
   return (
     <div className='app font-mont'>
+      <Header />
       <Introduction />
       <FeaturedIn />
       <Sounds />
