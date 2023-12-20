@@ -10,6 +10,7 @@ export default {
       },
       backgroundImage: {
         'feature-patterns': "url('/src/assets/Features-Patterns.svg')",
+        'intro-overlay': "url('/src/assets/intro-backdrop.png')",
       }
     },
   },
