@@ -5,7 +5,7 @@ import CTA from '../../elements/CTA';
 
 export default function Introduction() {
     return (
-        <div className="min-h-[80vh] bg-[#F4F6F9] flex relative">
+        <div className="min-h-[80vh] bg-[#F4F6F9] flex relative pt-24 md:pt-0">
             <div className="mx-auto container flex justify-center items-center lg:justify-start p-8">
                 <div>
                     <div className='bg-intro-overlay bg-contain bg-center lg:max-w-[530px]'>
