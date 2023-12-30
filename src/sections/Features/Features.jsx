@@ -9,15 +9,15 @@ import H2 from '../../elements/H2';
 export default function Features() {
     return (
         <div className="features bg-[#0C0C0C] relative mb-36 bg-feature-patterns bg-no-repeat bg-cover bg-center min-h-screen">
-            <div className="container mx-auto px-8 pt-32 pb-80 lg:pb-64 ">
-                <H2 className='text-white text-center mb-28'>As good as it sounds</H2>
-                <div className="grid grid-cols-2 lg:grid-cols-4 gap-10">
+            <div className="container mx-auto px-8 pt-32 pb-96 sm:pb-80">
+                <H2 className='text-white text-center mb-16 xl:mb-28'>As good as it sounds</H2>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
                     {
                         FEATURES_LIST.map(feature => (
-                            <div className='' key={feature.title}>
+                            <div className='flex flex-col items-center md:items-start text-center md:text-left' key={feature.title}>
                                 {feature.icon}
                                 <h4 className='font-extrabold text-2xl text-white my-3'>{feature.title}</h4>
-                                <p className='text-[#958A8A]'>{feature.description}</p>
+                                <p className='text-[#958A8A] max-w-[350px]'>{feature.description}</p>
                             </div>
                         ))
                     }

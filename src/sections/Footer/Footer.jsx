@@ -10,7 +10,7 @@ export default function Footer() {
             <div className="container mx-auto flex flex-col gap-10 justify-between md:flex-row">
                 <div>
                     <img src={Logo} alt="splice" />
-                    <p className='text-xs text-[#606060] font-mont mt-2 break-words'>2021 SpIce.corn All Rights Reserved</p>
+                    <p className='text-xs text-[#606060] font-mont mt-2 break-words'>2021 SpIce.com All Rights Reserved</p>
                 </div>
 
                 <div className='grid grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-14'>
