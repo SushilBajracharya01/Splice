@@ -10,9 +10,10 @@ export default function Footer() {
             <div className="container mx-auto flex flex-col gap-10 justify-between md:flex-row">
                 <div>
                     <img src={Logo} alt="splice" />
-                    <p className='text-xs text-[#606060] font-mont mt-2 break-words'>2021 SpIce.com All Rights Reserved</p>
+                    <p className='text-xs text-[#606060] font-mont mt-2 break-words'>2021
+                        <a className='font-medium hover:text-[#000] ml-1' href='https://Splice.com' target='_blank' rel="noreferrer">Splice.com</a> All Rights Reserved</p>
                     <p className='text-xs text-[#606060] font-mont mt-2 break-words'>
-                        Thanks to <a className='font-semibold' href='https://dribbble.com/shots/14970666-Splice-Landing-Page' target='_blank' rel="noreferrer">Nate Holland</a> for this wonderful design.
+                        Thanks to <a className='font-medium hover:text-[#000]' href='https://dribbble.com/shots/14970666-Splice-Landing-Page' target='_blank' rel="noreferrer">Nate Holland</a> for this wonderful design.
                     </p>
                 </div>
 
