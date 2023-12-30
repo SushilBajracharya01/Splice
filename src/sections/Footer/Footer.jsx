@@ -11,6 +11,9 @@ export default function Footer() {
                 <div>
                     <img src={Logo} alt="splice" />
                     <p className='text-xs text-[#606060] font-mont mt-2 break-words'>2021 SpIce.com All Rights Reserved</p>
+                    <p className='text-xs text-[#606060] font-mont mt-2 break-words'>
+                        Thanks to <a className='font-semibold' href='https://dribbble.com/shots/14970666-Splice-Landing-Page' target='_blank' rel="noreferrer">Nate Holland</a> for this wonderful design.
+                    </p>
                 </div>
 
                 <div className='grid grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-14'>
